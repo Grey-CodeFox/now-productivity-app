@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  line-height: 4rem;
+}
+
+/* header */
+
+.custom-nav {
+  min-height: 2rem;
+}
+
+.custom-nav-img {
+  max-height: 3rem;
+  width: auto;
+  object-position: center;
+}
+
+/* main-section */
+
+body {
+  background-image: url('./images/SIGN\ UP\ BACKGROUND.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  margin-top: 4rem;
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+main section {
+  border-radius: 10px;
+}
+main section:nth-of-type(even) {
+  background-color: rgba(128, 128, 128, 0.096);
+}
+
+.custom-logo-image {
+  background-image: url('./images/logo-icon.png');
+  padding: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form .input-container {
+  width: 100%;
+}
+.input-container input {
+  display: inline-block;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.custom-i-container {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+.custom-i {
+  width: 4%;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+  background-size: 70% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.custom-i-1 {
+  background-image: url('./images/google-default.png');
+  border: 1px solid whitesmoke;
+}
+.custom-i-2 {
+  background-image: url('./images/facebook-default.png');
+  border: 1px solid rgb(8 102 255);
+}
+.custom-i-3 {
+  background-image: url('./images/linkedin-default.png');
+  border: 1px solid rgb(8 102 255);
+}
+.custom-i-4 {
+  background-image: url('./images/apple-default.png');
+  filter: invert(1);
+  border: 1px solid black;
+}
+.custom-i-5 {
+  background-image: url('./images/windows-default.png');
+  border: 1px solid whitesmoke;
+}

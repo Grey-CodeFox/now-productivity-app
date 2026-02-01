@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  line-height: 4rem;
+}
+
+/* header */
+
+.custom-nav {
+  min-height: 2rem;
+}
+
+.custom-nav-img {
+  max-height: 3rem;
+  width: auto;
+  object-position: center;
+}
+
+/* main-section */
+
+.custom-main {
+  background-image: url('./images/SIGN\ UP\ BACKGROUND.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 4.8rem;
+}
+.custom-inner-bg {
+  backdrop-filter: blur(10px);
+}
+main section {
+  border-radius: 10px;
+}
+main section:nth-of-type(even) {
+  background-color: rgba(128, 128, 128, 0.096);
+}
+
+.custom-logo-image {
+  background-image: url('./images/logo-icon.png');
+  padding: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .custom-inner-bg {
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+  }
+}

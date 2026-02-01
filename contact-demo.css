@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: visible;
+  line-height: 4rem;
+}
+
+/* header */
+
+.custom-nav {
+  min-height: 2rem;
+}
+
+.custom-nav-img {
+  max-height: 3rem;
+  width: auto;
+  object-position: center;
+}
+
+/* main-section */
+
+.custom-main {
+  padding-top: 4rem;
+}
+
+section {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+.custom-request-demo {
+  background-image: url('./images/demo-contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0 0 0 / 74%);
+  background-blend-mode: color;
+}
+
+.custom-demo-container {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(27px);
+  box-shadow: 0px 0px 12px 0px #ffffff4a;
+  border-radius: 20px;
+}
+main section {
+  border-radius: 10px;
+}
+main section:nth-of-type(even) {
+  background-color: rgba(128, 128, 128, 0.096);
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: visible;
+  line-height: 4rem;
+}
+
+/* header */
+
+.custom-nav {
+  min-height: 2rem;
+}
+
+.custom-nav-img {
+  max-height: 3rem;
+  width: auto;
+  object-position: center;
+}
+
+/* main-section */
+
+.custom-main {
+  padding-top: 4rem;
+}
+
+section {
+  padding-top: 3.5rem;
+}
+
+/* hero image */
+
+.custom-hero-image {
+  max-height: 4rem;
+  width: auto;
+  background-image: url('./images/homepage-hero-animation-lf.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+section {
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+h1,
+svg {
+  animation: heading-animation 1s ease-in-out;
+}
+
+@keyframes heading-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-congratulations-1 img {
+  display: inline-block;
+
+  transform: rotate(280deg);
+}
+
+.custom-congratulations-2 img {
+  display: inline-block;
+
+  transform: rotate(15deg);
+}
