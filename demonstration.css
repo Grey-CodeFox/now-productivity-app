@@ -29,48 +29,59 @@ html {
 }
 
 section {
-  padding-top: 3.5rem;
-}
-
-/* hero image */
-
-.custom-hero-image {
-  max-height: auto;
-  width: auto;
-  background-image: url('./images/homepage-hero-animation-lf.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top;
-}
-section {
   padding-top: 4.8rem;
   padding-bottom: 4.8rem;
 }
-
-h1,
-svg {
-  animation: heading-animation 1s ease-in-out;
+main section {
+  border-radius: 10px;
+}
+main section:nth-of-type(even) {
+  background-color: rgba(128, 128, 128, 0.096);
 }
 
-@keyframes heading-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.custom-video-container {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
 
-.custom-congratulations-1 img {
-  width: 10rem;
-  aspect-ratio: 1/1;
+.custom-video {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.custom-inner-container {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 10px;
+}
+
+.custom-inner-heading {
+}
+.custom-inner-image {
+  height: 317px;
+}
+
+.custom-inner-image img {
+  border-radius: 10px;
   display: inline-block;
-  transform: rotate(280deg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: all 1s ease-in-out;
 }
 
-.custom-congratulations-2 img {
-  width: 10rem;
-  aspect-ratio: 1/1;
-  display: inline-block;
-  transform: rotate(15deg);
+.custom-inner-text-1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: rgb(12 12 12);
+  border: 1px solid grey;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-inner-image:hover img {
+  object-position: bottom;
 }
