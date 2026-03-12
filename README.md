@@ -80,7 +80,7 @@ This project includes several common SaaS landing page UI components:
 - **Features Section**
 - **Pricing Plans Layout**
 - **Card Components**
-- Styled **Buttons**
+- **Styled Buttons**
 - **Grid-based layout structure**
 - **Mobile-friendly responsive design**
 
@@ -100,8 +100,17 @@ The project uses several Bootstrap components and utilities:
 ---
 
 # 📸 Screenshots
+### Homepage (Desktop)
+![Homepage](screenshots/Homepage(desktop).png)
 
+### Features Section (Desktop)
+![Features](screenshots/Features(desktop).png)
 
+### Pricing Section (Desktop)
+![Pricing](screenshots/pricing-section-5(desktop).png)
+
+### Explore Section (Desktop)
+![Explore](screenshots/explore-section-4(desktop).png)
 
 # 🔮 Future Improvements
 
